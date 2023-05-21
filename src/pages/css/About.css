@@ -1,3 +1,10 @@
+.seperator {
+  width: 3px;
+  height: 215px;
+  display: flex;
+  background-color: crimson;
+}
+
 .about-us-section {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

@@ -18,19 +18,21 @@ const About = () => {
               text="To be a globally recognized poultry management app that digitalizes processes in the poultry value chain."
             />
           </Col>
-          <Col md={4}>
-            <CardComponent
-              icon={<GiTargetArrows className="about-us-icon" />}
-              title="Mission"
-              text="To provide an all-round solution that makes poultry management simpler and more efficient for poultry farmers
-              "
-            />
-          </Col>
-          <Col md={4}>
+          <div className="seperator text-danger"></div>
+          <Col md={3}>
             <CardComponent
               icon={<GiCrystalGrowth className="about-us-icon" />}
               title="Core-Values"
               text="Innovation, Customer Satisfaction,Efficiency,Intergrity."
+            />
+          </Col>
+          <div className="seperator text-danger"></div>
+          <Col md={4}>
+            <CardComponent
+              icon={<GiTargetArrows className="about-us-icon" />}
+              title="Mission"
+              text="Provide an all-round solution to make poultry management simple and efficient for poultry farmers.
+              "
             />
           </Col>
         </Row>
