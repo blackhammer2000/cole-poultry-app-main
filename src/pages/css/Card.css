@@ -1,0 +1,33 @@
+.about-us-card {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+
+.about-us-card svg {
+  color: red;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.about-us-card .card-title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-us-card .card-text {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .about-us-card .card-title {
+    font-size: 18px;
+  }
+}
+
+.about-us-main-card {
+  background-color: red;
+}

@@ -1,0 +1,52 @@
+/* Careers.css */
+.careers-page {
+  padding: 50px;
+  padding-top: 80px
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 30px;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-hover-red {
+    background-color: #fff;
+    color: red;
+    border-color: red;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-hover-red:hover {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  

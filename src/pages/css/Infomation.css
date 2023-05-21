@@ -1,0 +1,57 @@
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .information-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+   
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .description {
+    margin-left: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Hover effect */
+  .video-wrapper:hover .play-icon {
+    opacity: 1;
+  }
+  

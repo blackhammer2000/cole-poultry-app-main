@@ -1,0 +1,111 @@
+.about-us-section {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  padding-top: 150px; /* Increase the padding-top value to create more space */
+}
+
+.about-us-subsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-us-title {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-us-subtitle {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-subsection p {
+  margin-bottom: 20px;
+}
+
+.ceo-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ceo-button:hover {
+  background-color: #cc0000;
+}
+
+.about-us-logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.about-us-card {
+  background-color: white;
+  color: #666;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.about-us-icon {
+  color: red;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.ceo-message {
+  margin-top: 50px;
+}
+
+.ceo-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.ceo-text {
+  margin-left: 20px;
+}
+
+.ceo-title {
+  margin-bottom: 10px;
+}
+
+.ceo-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.ceo-button:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 768px) {
+  .about-us-section {
+    padding: 30px;
+  }
+
+  .about-us-title {
+    font-size: 24px;
+  }
+
+  .about-us-subtitle {
+    font-size: 20px;
+  }
+}
