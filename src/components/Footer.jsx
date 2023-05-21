@@ -87,10 +87,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="row mb-1">
+        <div className="row">
           <div className="col-12">
-            <p className="text-center">
-              &copy; 2023 All rights reserved - ePoultry | Page designed by{" "}
+            <p className="text-center font-weight-bold">
+              &copy; 2023 All rights reserved: <span className="big-e">e</span>
+              <span className="bold">-POULTRY</span> | Page designed by{" "}
               <a
                 href="https://olivebishop.vercel.app/"
                 style={{ textDecoration: "none", color: "red" }}
