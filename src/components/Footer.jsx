@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import {
-  AiOutlineTwitter,
-  AiOutlineLinkedin,
-  AiOutlineFacebook,
-} from "react-icons/ai";
+import { AiOutlineLinkedin, AiOutlineFacebook } from "react-icons/ai";
 import "./css/Footer.css";
-import logo from "../assets/logo.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
