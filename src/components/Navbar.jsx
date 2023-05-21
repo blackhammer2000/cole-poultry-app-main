@@ -6,14 +6,7 @@ import "./css/Navbar.css";
 
 const CustomNavbar = () => {
   return (
-    <Navbar
-      className="d-flex justify-content-between align-item-center"
-      collapseOnSelect
-      expand="md"
-      bg="white"
-      variant="light"
-      fixed="top"
-    >
+    <Navbar collapseOnSelect expand="md" bg="white" variant="light" fixed="top">
       <Navbar.Brand as={Link} to="/">
         <img
           src={logo}
@@ -23,23 +16,23 @@ const CustomNavbar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-5 custom-nav">
-          <Nav.Link as={Link} to="/" exact>
+        <Nav className="custom-nav ">
+          <Nav.Link className="mx-3" as={Link} to="/" exact>
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/about">
+          <Nav.Link className="mx-3" as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link as={Link} to="/product">
+          <Nav.Link className="mx-3" as={Link} to="/product">
             Products
           </Nav.Link>
-          <Nav.Link as={Link} to="/service">
+          <Nav.Link className="mx-3" as={Link} to="/service">
             Services
           </Nav.Link>
-          <Nav.Link as={Link} to="/modules">
+          <Nav.Link className="mx-3" as={Link} to="/modules">
             Modules
           </Nav.Link>
-          <Nav.Link as={Link} to="/careers">
+          <Nav.Link className="mx-3" as={Link} to="/careers">
             Careers
           </Nav.Link>
           <NavDropdown title="Media" id="media-dropdown">
@@ -56,7 +49,7 @@ const CustomNavbar = () => {
               Training Team
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link as={Link} to="/contact">
+          <Nav.Link className="mx-3" as={Link} to="/contact">
             Contact
           </Nav.Link>
         </Nav>

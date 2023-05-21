@@ -41,6 +41,10 @@
   background-color: transparent;
 }
 
+.custom-nav {
+  margin-left: 23em;
+}
+
 @media (max-width: 768px) {
   .navbar-nav .nav-link {
     color: black !important;
