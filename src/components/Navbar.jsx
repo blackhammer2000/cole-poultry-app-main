@@ -6,12 +6,19 @@ import "./css/Navbar.css";
 
 const CustomNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="md" bg="white" variant="light" fixed="top">
-      <Navbar.Brand as={Link} to="/">
+    <Navbar
+      collapseOnSelect
+      expand="md"
+      bg="white"
+      variant="light"
+      fixed="top"
+      className="py-0"
+    >
+      <Navbar.Brand as={Link} to="/" className="">
         <img
           src={logo}
           alt="e-Poultry logo"
-          style={{ width: 200, height: 200 }}
+          style={{ width: 300, height: 300 }}
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
