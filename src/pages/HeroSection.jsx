@@ -36,7 +36,7 @@ const HeroSection = () => {
           <Col md={6}>
             <div className="hero-content text-center">
               <h1 className="hero-title">
-                <span className="hero-highlight-red font-weight-bold">e</span>
+                <span className="hero-highlight-red font-weight-bold big-e">e</span>
                 -POULTRY
               </h1>
               <p className="hero-description">
